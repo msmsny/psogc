@@ -49,6 +49,19 @@ Flags:
   -h, --help          help for status
 ```
 
+```bash
+$ psogc status --name fomar --level 10
+name:         fomar
+level:          10
+HP:             71
+TP:            153
+Attack:         47
+Defence:        19
+MindStrength:   93
+Accuracy:       68.0
+Evasion:        75
+```
+
 ## Reference
 
 * [ファンタシースターオンライン エピソード１＆２ アルティメット システム×ストーリー編](https://www.sbcr.jp/product/4797321806/)
