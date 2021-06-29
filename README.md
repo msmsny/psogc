@@ -2,6 +2,10 @@
 
 Phantasy Star Online Episode I&II unofficial tools
 
+## Requirement
+
+Go 1.16+
+
 ## Install
 
 ```bash
