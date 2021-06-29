@@ -9,7 +9,7 @@ $ go get github.com/msmsny/psogc/cmd/psogc
 ```
 
 or download binaries from releases  
-https://github.com/msmsny/qkamura/releases
+TODO link
 
 ## Usage
 
