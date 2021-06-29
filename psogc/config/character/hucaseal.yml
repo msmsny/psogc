@@ -1,0 +1,43 @@
+characters:
+- name: hucaseal
+  statuses:
+  - {lv:   5, hp:   76, tp: 0, atp:  70, dfp:  25, mst: 0, ata:  75, evp:  60}
+  - {lv:  10, hp:  112, tp: 0, atp:  99, dfp:  33, mst: 0, ata:  78, evp:  89}
+  - {lv:  15, hp:  146, tp: 0, atp: 130, dfp:  38, mst: 0, ata:  82, evp: 120}
+  - {lv:  20, hp:  180, tp: 0, atp: 160, dfp:  43, mst: 0, ata:  86, evp: 150}
+  - {lv:  25, hp:  212, tp: 0, atp: 189, dfp:  49, mst: 0, ata:  90, evp: 176}
+  - {lv:  30, hp:  244, tp: 0, atp: 220, dfp:  56, mst: 0, ata:  94, evp: 200}
+  - {lv:  35, hp:  276, tp: 0, atp: 240, dfp:  62, mst: 0, ata:  98, evp: 226}
+  - {lv:  40, hp:  302, tp: 0, atp: 279, dfp:  69, mst: 0, ata: 102, evp: 244}
+  - {lv:  45, hp:  330, tp: 0, atp: 310, dfp:  75, mst: 0, ata: 106, evp: 261}
+  - {lv:  50, hp:  360, tp: 0, atp: 340, dfp:  81, mst: 0, ata: 109, evp: 278}
+  - {lv:  55, hp:  392, tp: 0, atp: 369, dfp:  89, mst: 0, ata: 113, evp: 293}
+  - {lv:  60, hp:  418, tp: 0, atp: 400, dfp:  96, mst: 0, ata: 117, evp: 309}
+  - {lv:  65, hp:  444, tp: 0, atp: 430, dfp: 102, mst: 0, ata: 120, evp: 326}
+  - {lv:  70, hp:  472, tp: 0, atp: 459, dfp: 108, mst: 0, ata: 123, evp: 341}
+  - {lv:  75, hp:  498, tp: 0, atp: 484, dfp: 114, mst: 0, ata: 127, evp: 356}
+  - {lv:  80, hp:  524, tp: 0, atp: 501, dfp: 121, mst: 0, ata: 130, evp: 371}
+  - {lv:  85, hp:  552, tp: 0, atp: 517, dfp: 127, mst: 0, ata: 134, evp: 386}
+  - {lv:  90, hp:  578, tp: 0, atp: 534, dfp: 133, mst: 0, ata: 137, evp: 401}
+  - {lv:  95, hp:  604, tp: 0, atp: 551, dfp: 143, mst: 0, ata: 141, evp: 416}
+  - {lv: 100, hp:  632, tp: 0, atp: 567, dfp: 155, mst: 0, ata: 145, evp: 432}
+  - {lv: 105, hp:  672, tp: 0, atp: 574, dfp: 165, mst: 0, ata: 148, evp: 448}
+  - {lv: 110, hp:  712, tp: 0, atp: 591, dfp: 175, mst: 0, ata: 151, evp: 465}
+  - {lv: 115, hp:  752, tp: 0, atp: 607, dfp: 185, mst: 0, ata: 153, evp: 482}
+  - {lv: 120, hp:  792, tp: 0, atp: 624, dfp: 195, mst: 0, ata: 156, evp: 500}
+  - {lv: 125, hp:  832, tp: 0, atp: 641, dfp: 205, mst: 0, ata: 158, evp: 518}
+  - {lv: 130, hp:  872, tp: 0, atp: 657, dfp: 215, mst: 0, ata: 160, evp: 535}
+  - {lv: 135, hp:  912, tp: 0, atp: 674, dfp: 225, mst: 0, ata: 162, evp: 552}
+  - {lv: 140, hp:  952, tp: 0, atp: 691, dfp: 240, mst: 0, ata: 164, evp: 569}
+  - {lv: 145, hp:  992, tp: 0, atp: 707, dfp: 251, mst: 0, ata: 166, evp: 587}
+  - {lv: 150, hp: 1030, tp: 0, atp: 724, dfp: 262, mst: 0, ata: 168, evp: 606}
+  - {lv: 155, hp: 1064, tp: 0, atp: 741, dfp: 274, mst: 0, ata: 170, evp: 625}
+  - {lv: 160, hp: 1100, tp: 0, atp: 757, dfp: 289, mst: 0, ata: 172, evp: 643}
+  - {lv: 165, hp: 1136, tp: 0, atp: 774, dfp: 304, mst: 0, ata: 174, evp: 660}
+  - {lv: 170, hp: 1170, tp: 0, atp: 791, dfp: 319, mst: 0, ata: 176, evp: 677}
+  - {lv: 175, hp: 1204, tp: 0, atp: 807, dfp: 334, mst: 0, ata: 177, evp: 696}
+  - {lv: 180, hp: 1240, tp: 0, atp: 824, dfp: 349, mst: 0, ata: 179, evp: 714}
+  - {lv: 185, hp: 1276, tp: 0, atp: 841, dfp: 364, mst: 0, ata: 180, evp: 732}
+  - {lv: 190, hp: 1310, tp: 0, atp: 857, dfp: 379, mst: 0, ata: 182, evp: 747}
+  - {lv: 195, hp: 1344, tp: 0, atp: 874, dfp: 389, mst: 0, ata: 183, evp: 762}
+  - {lv: 200, hp: 1380, tp: 0, atp: 891, dfp: 399, mst: 0, ata: 184, evp: 777}

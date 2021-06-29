@@ -1,0 +1,43 @@
+characters:
+- name: ramar
+  statuses:
+  - {lv:   5, hp:   51, tp:  37, atp:  40, dfp:  16, mst:  33, ata:  84, evp:  54}
+  - {lv:  10, hp:   77, tp:  59, atp:  59, dfp:  19, mst:  50, ata:  88, evp:  76}
+  - {lv:  15, hp:  103, tp:  80, atp:  80, dfp:  23, mst:  66, ata:  92, evp:  99}
+  - {lv:  20, hp:  131, tp: 102, atp: 100, dfp:  26, mst:  83, ata:  97, evp: 119}
+  - {lv:  25, hp:  157, tp: 124, atp: 120, dfp:  29, mst: 100, ata: 101, evp: 139}
+  - {lv:  30, hp:  185, tp: 145, atp: 139, dfp:  33, mst: 116, ata: 105, evp: 156}
+  - {lv:  35, hp:  214, tp: 165, atp: 160, dfp:  38, mst: 131, ata: 109, evp: 174}
+  - {lv:  40, hp:  242, tp: 185, atp: 180, dfp:  43, mst: 146, ata: 114, evp: 191}
+  - {lv:  45, hp:  271, tp: 204, atp: 199, dfp:  48, mst: 160, ata: 118, evp: 209}
+  - {lv:  50, hp:  301, tp: 224, atp: 220, dfp:  53, mst: 175, ata: 122, evp: 226}
+  - {lv:  55, hp:  329, tp: 244, atp: 240, dfp:  60, mst: 190, ata: 126, evp: 244}
+  - {lv:  60, hp:  358, tp: 267, atp: 259, dfp:  68, mst: 208, ata: 131, evp: 261}
+  - {lv:  65, hp:  386, tp: 291, atp: 280, dfp:  75, mst: 227, ata: 135, evp: 277}
+  - {lv:  70, hp:  414, tp: 314, atp: 300, dfp:  82, mst: 245, ata: 139, evp: 287}
+  - {lv:  75, hp:  442, tp: 336, atp: 319, dfp:  88, mst: 262, ata: 143, evp: 297}
+  - {lv:  80, hp:  471, tp: 358, atp: 340, dfp:  96, mst: 279, ata: 148, evp: 307}
+  - {lv:  85, hp:  508, tp: 382, atp: 360, dfp: 106, mst: 298, ata: 152, evp: 317}
+  - {lv:  90, hp:  545, tp: 403, atp: 379, dfp: 116, mst: 314, ata: 156, evp: 327}
+  - {lv:  95, hp:  582, tp: 428, atp: 400, dfp: 126, mst: 334, ata: 160, evp: 337}
+  - {lv: 100, hp:  619, tp: 453, atp: 420, dfp: 136, mst: 354, ata: 165, evp: 347}
+  - {lv: 105, hp:  656, tp: 473, atp: 437, dfp: 146, mst: 369, ata: 169, evp: 363}
+  - {lv: 110, hp:  703, tp: 493, atp: 459, dfp: 156, mst: 384, ata: 173, evp: 380}
+  - {lv: 115, hp:  749, tp: 513, atp: 480, dfp: 167, mst: 399, ata: 177, evp: 396}
+  - {lv: 120, hp:  795, tp: 528, atp: 502, dfp: 179, mst: 409, ata: 180, evp: 413}
+  - {lv: 125, hp:  841, tp: 543, atp: 524, dfp: 192, mst: 419, ata: 184, evp: 430}
+  - {lv: 130, hp:  888, tp: 558, atp: 547, dfp: 204, mst: 429, ata: 187, evp: 447}
+  - {lv: 135, hp:  934, tp: 573, atp: 569, dfp: 217, mst: 439, ata: 191, evp: 464}
+  - {lv: 140, hp:  980, tp: 584, atp: 591, dfp: 229, mst: 445, ata: 194, evp: 481}
+  - {lv: 145, hp: 1026, tp: 594, atp: 612, dfp: 242, mst: 450, ata: 197, evp: 497}
+  - {lv: 150, hp: 1073, tp: 604, atp: 633, dfp: 254, mst: 455, ata: 200, evp: 513}
+  - {lv: 155, hp: 1119, tp: 614, atp: 651, dfp: 267, mst: 460, ata: 203, evp: 525}
+  - {lv: 160, hp: 1165, tp: 624, atp: 670, dfp: 279, mst: 465, ata: 206, evp: 537}
+  - {lv: 165, hp: 1211, tp: 634, atp: 687, dfp: 289, mst: 470, ata: 209, evp: 549}
+  - {lv: 170, hp: 1258, tp: 644, atp: 705, dfp: 299, mst: 475, ata: 212, evp: 561}
+  - {lv: 175, hp: 1304, tp: 654, atp: 725, dfp: 309, mst: 480, ata: 215, evp: 571}
+  - {lv: 180, hp: 1350, tp: 664, atp: 741, dfp: 319, mst: 485, ata: 218, evp: 581}
+  - {lv: 185, hp: 1396, tp: 674, atp: 756, dfp: 329, mst: 490, ata: 221, evp: 594}
+  - {lv: 190, hp: 1443, tp: 684, atp: 771, dfp: 339, mst: 495, ata: 224, evp: 609}
+  - {lv: 195, hp: 1483, tp: 694, atp: 786, dfp: 349, mst: 500, ata: 227, evp: 624}
+  - {lv: 200, hp: 1520, tp: 704, atp: 801, dfp: 359, mst: 505, ata: 230, evp: 639}
