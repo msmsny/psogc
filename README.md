@@ -56,7 +56,7 @@ level:          10
 HP:             71
 TP:            153
 Attack:         47
-Defence:        19
+Defense:        19
 MindStrength:   93
 Accuracy:       68.0
 Evasion:        75

@@ -104,7 +104,7 @@ func viewStatus(name string, status *psogc.Status) {
 		HP:           %4d
 		TP:           %4d
 		Attack:       %4d
-		Defence:      %4d
+		Defense:      %4d
 		MindStrength: %4d
 		Accuracy:     %6.1f
 		Evasion:      %4d
@@ -123,7 +123,7 @@ func viewStatus(name string, status *psogc.Status) {
 
 func viewStatusOneLine(name string, status *psogc.Status) {
 	fmt.Printf(
-		"name: %s, level: %3d, HP: %4d, TP: %4d, Attack: %4d, Defence: %3d, MindStrength: %4d, Accuracy: %5.1f, Evasion: %3d\n",
+		"name: %s, level: %3d, HP: %4d, TP: %4d, Attack: %4d, Defense: %3d, MindStrength: %4d, Accuracy: %5.1f, Evasion: %3d\n",
 		name,
 		status.Level,
 		status.HP,
