@@ -12,7 +12,7 @@ characters:
   - {lv:  45, hp:  326, tp:  271, atp: 281, dfp:  96, mst: 227, ata:  89, evp: 315}
   - {lv:  50, hp:  358, tp:  297, atp: 312, dfp: 104, mst: 248, ata:  91, evp: 330}
   - {lv:  55, hp:  388, tp:  323, atp: 346, dfp: 112, mst: 269, ata:  94, evp: 342}
-  - {lv:  60, hp:  418, tp:  350, atp: 358, dfp: 121, mst: 291, ata:  97, evp: 352}
+  - {lv:  60, hp:  418, tp:  350, atp: 378, dfp: 121, mst: 291, ata:  97, evp: 352}
   - {lv:  65, hp:  448, tp:  376, atp: 409, dfp: 130, mst: 312, ata: 100, evp: 362}
   - {lv:  70, hp:  478, tp:  402, atp: 435, dfp: 140, mst: 333, ata: 102, evp: 372}
   - {lv:  75, hp:  508, tp:  428, atp: 455, dfp: 150, mst: 354, ata: 105, evp: 382}

@@ -28,7 +28,7 @@ characters:
   - {lv: 125, hp:  784, tp: 1137, atp: 429, dfp: 201, mst: 634, ata: 127, evp: 409}
   - {lv: 130, hp:  820, tp: 1174, atp: 449, dfp: 211, mst: 654, ata: 128, evp: 419}
   - {lv: 135, hp:  856, tp: 1212, atp: 469, dfp: 221, mst: 674, ata: 129, evp: 429}
-  - {lv: 140, hp:  893, tp: 1249, atp: 489, dfp: 232, mst: 694, ata: 130, evp: 439}
+  - {lv: 140, hp:  893, tp: 1249, atp: 489, dfp: 231, mst: 694, ata: 130, evp: 439}
   - {lv: 145, hp:  929, tp: 1287, atp: 509, dfp: 241, mst: 714, ata: 131, evp: 449}
   - {lv: 150, hp:  965, tp: 1324, atp: 529, dfp: 251, mst: 734, ata: 132, evp: 459}
   - {lv: 155, hp: 1001, tp: 1362, atp: 549, dfp: 261, mst: 754, ata: 134, evp: 469}

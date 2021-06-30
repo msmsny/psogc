@@ -4,7 +4,7 @@ characters:
   - {lv:   5, hp:   68, tp:  51, atp:  71, dfp:  20, mst:  47, ata:  71, evp:  67}
   - {lv:  10, hp:  104, tp:  79, atp: 104, dfp:  23, mst:  70, ata:  74, evp:  94}
   - {lv:  15, hp:  138, tp: 100, atp: 136, dfp:  27, mst:  86, ata:  78, evp: 122}
-  - {lv:  20, hp:  174, tp: 120, atp: 147, dfp:  30, mst: 101, ata:  81, evp: 149}
+  - {lv:  20, hp:  174, tp: 120, atp: 167, dfp:  30, mst: 101, ata:  81, evp: 149}
   - {lv:  25, hp:  208, tp: 141, atp: 200, dfp:  34, mst: 117, ata:  85, evp: 177}
   - {lv:  30, hp:  244, tp: 163, atp: 232, dfp:  42, mst: 134, ata:  88, evp: 202}
   - {lv:  35, hp:  278, tp: 183, atp: 265, dfp:  49, mst: 149, ata:  92, evp: 227}

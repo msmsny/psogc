@@ -40,4 +40,4 @@ characters:
   - {lv: 185, hp: 1694, tp: 0, atp: 725, dfp: 509, mst: 0, ata: 198, evp: 668}
   - {lv: 190, hp: 1759, tp: 0, atp: 740, dfp: 526, mst: 0, ata: 201, evp: 683}
   - {lv: 195, hp: 1824, tp: 0, atp: 755, dfp: 544, mst: 0, ata: 205, evp: 698}
-  - {lv: 200, hp: 1890, tp: 0, atp: 771, dfp: 562, mst: 0, ata: 208, evp: 713}
+  - {lv: 200, hp: 1890, tp: 0, atp: 770, dfp: 562, mst: 0, ata: 208, evp: 713}

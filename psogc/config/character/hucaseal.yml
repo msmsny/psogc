@@ -7,7 +7,7 @@ characters:
   - {lv:  20, hp:  180, tp: 0, atp: 160, dfp:  43, mst: 0, ata:  86, evp: 150}
   - {lv:  25, hp:  212, tp: 0, atp: 189, dfp:  49, mst: 0, ata:  90, evp: 176}
   - {lv:  30, hp:  244, tp: 0, atp: 220, dfp:  56, mst: 0, ata:  94, evp: 200}
-  - {lv:  35, hp:  276, tp: 0, atp: 240, dfp:  62, mst: 0, ata:  98, evp: 226}
+  - {lv:  35, hp:  276, tp: 0, atp: 250, dfp:  62, mst: 0, ata:  98, evp: 226}
   - {lv:  40, hp:  302, tp: 0, atp: 279, dfp:  69, mst: 0, ata: 102, evp: 244}
   - {lv:  45, hp:  330, tp: 0, atp: 310, dfp:  75, mst: 0, ata: 106, evp: 261}
   - {lv:  50, hp:  360, tp: 0, atp: 340, dfp:  81, mst: 0, ata: 109, evp: 278}
