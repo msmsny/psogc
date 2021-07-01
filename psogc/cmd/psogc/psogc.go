@@ -13,8 +13,8 @@ func Execute() error {
 func NewPSOGCCommand() *cobra.Command {
 	cmds := &cobra.Command{
 		Use:           "psogc",
-		Short:         "Phantasy Start Online Episode I&II unofficial tools",
-		Long:          "Phantasy Start Online Episode I&II unofficial tools",
+		Short:         "Phantasy Start Online Episode I & II unofficial tools",
+		Long:          "Phantasy Start Online Episode I & II unofficial tools",
 		SilenceErrors: true,
 		SilenceUsage:  true,
 	}

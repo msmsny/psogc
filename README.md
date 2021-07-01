@@ -1,6 +1,6 @@
 # psogc
 
-Phantasy Star Online Episode I&II unofficial tools
+Phantasy Star Online Episode I & II unofficial tools
 
 ## Requirement
 
@@ -19,7 +19,7 @@ TODO link
 
 ```bash
 $ psogc --help
-Phantasy Start Online Episode I&II unofficial tools
+Phantasy Start Online Episode I & II unofficial tools
 
 Usage:
   psogc [command]
