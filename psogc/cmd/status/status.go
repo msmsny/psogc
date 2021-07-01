@@ -58,8 +58,8 @@ func NewStatusCommand() *cobra.Command {
 
 			return nil
 		},
-		SilenceErrors: false,
-		SilenceUsage:  false,
+		SilenceErrors: true,
+		SilenceUsage:  true,
 	}
 
 	flags := cmds.Flags()
