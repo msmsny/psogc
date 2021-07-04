@@ -2,6 +2,7 @@ package status
 
 import (
 	"fmt"
+	"io"
 	"os"
 	"strings"
 
@@ -12,9 +13,12 @@ import (
 	"github.com/msmsny/psogc/psogc"
 )
 
-func NewStatusCommand() *cobra.Command {
+// NewStatusCommand creates cobra.Command of psgoc status.
+// opts argument is to test standard output.
+func NewStatusCommand(opts ...StatusCommandOption) *cobra.Command {
 	opt := &StatusOption{}
 	config := &psogc.CharacterConfig{}
+	output := outputFromOpts(opts)
 	characterEnum := psogc.NewCharacterClassEnum()
 	v := validator.New()
 	v.RegisterValidation("isCharacterClass", characterEnum.ValuesValidator())
@@ -49,9 +53,9 @@ func NewStatusCommand() *cobra.Command {
 				}
 				for _, status := range character.Statuses {
 					if opt.Level == 0 {
-						viewStatusOneLine(character.Name, status)
+						output.viewStatusOneLine(character.Name, status)
 					} else if status.Level == opt.Level {
-						viewStatus(character.Name, status)
+						output.viewStatus(character.Name, status)
 					}
 				}
 			}
@@ -97,8 +101,16 @@ func validate(v *validator.Validate, enum *psogc.CharacterClassEnum, opt *Status
 	return nil
 }
 
-func viewStatus(name string, status *psogc.Status) {
-	fmt.Print(heredoc.Doc(fmt.Sprintf(`
+type output struct {
+	writer io.Writer
+}
+
+func NewOutput() *output {
+	return &output{writer: os.Stdout}
+}
+
+func (o *output) viewStatus(name string, status *psogc.Status) {
+	fmt.Fprint(o.writer, heredoc.Doc(fmt.Sprintf(`
 		name:         %s
 		level:        %4d
 		HP:           %4d
@@ -121,8 +133,9 @@ func viewStatus(name string, status *psogc.Status) {
 	)))
 }
 
-func viewStatusOneLine(name string, status *psogc.Status) {
-	fmt.Printf(
+func (o *output) viewStatusOneLine(name string, status *psogc.Status) {
+	fmt.Fprintf(
+		o.writer,
 		"name: %s, level: %3d, HP: %4d, TP: %4d, Attack: %4d, Defense: %3d, MindStrength: %4d, Accuracy: %5.1f, Evasion: %3d\n",
 		name,
 		status.Level,
@@ -134,4 +147,30 @@ func viewStatusOneLine(name string, status *psogc.Status) {
 		status.Accuracy,
 		status.Evasion,
 	)
+}
+
+func outputFromOpts(options []StatusCommandOption) *output {
+	opts := &statusCommandOptions{output: NewOutput()}
+	for _, option := range options {
+		option.apply(opts)
+	}
+
+	return opts.output
+}
+
+type StatusCommandOption interface{ apply(*statusCommandOptions) }
+
+type statusCommandOptions struct {
+	output *output
+}
+
+type outputOption struct {
+	output *output
+}
+
+func (o outputOption) apply(opts *statusCommandOptions) { opts.output = o.output }
+
+// withOutput is unexported for using only test.
+func withOutput(output *output) StatusCommandOption {
+	return outputOption{output: output}
 }
