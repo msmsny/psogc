@@ -13,7 +13,7 @@ import (
 	"github.com/msmsny/psogc/psogc"
 )
 
-// NewStatusCommand creates cobra.Command of psgoc status.
+// NewStatusCommand creates cobra.Command of psogc status.
 // opts argument is to test standard output.
 func NewStatusCommand(opts ...StatusCommandOption) *cobra.Command {
 	opt := &StatusOption{}
