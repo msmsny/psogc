@@ -21,9 +21,9 @@ func NewStatusCommand(opts ...StatusCommandOption) *cobra.Command {
 	output := outputFromOpts(opts)
 	characterEnum := psogc.NewCharacterClassEnum()
 	v := validator.New()
-	v.RegisterValidation("isCharacterClass", characterEnum.ValuesValidator())
+	v.RegisterValidation("isCharacterClass", characterEnum.ValuesValidator()) //nolint:errcheck
 	// TODO remove isMod5
-	v.RegisterValidation("isMod5", func(fl validator.FieldLevel) bool {
+	v.RegisterValidation("isMod5", func(fl validator.FieldLevel) bool { //nolint:errcheck
 		return fl.Field().Int()%5 == 0
 	})
 
