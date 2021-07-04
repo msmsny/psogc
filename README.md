@@ -1,5 +1,9 @@
 # psogc
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/msmsny/psogc)](https://goreportcard.com/report/github.com/msmsny/psogc)
+[![Test](https://github.com/msmsny/psogc/actions/workflows/test.yml/badge.svg)](https://github.com/msmsny/psogc/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/msmsny/psogc/badge.svg?branch=master)](https://coveralls.io/github/msmsny/psogc?branch=master)
+
 Phantasy Star Online Episode I & II unofficial tools
 
 ## Requirement
